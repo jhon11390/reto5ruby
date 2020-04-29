@@ -67,4 +67,4 @@ puts
 
 #Incio de la clase Encrypter
 
-filecrypte = Encrypter.new(definicion, respuesta)
+filecrypte = Encrypter.new(definicion.downcase, respuesta.downcase)
