@@ -1,3 +1,4 @@
+#Clase Question_unit: Esta clase desencripta los archivos y escoge una pregunta al azar de la carpeta Preguntas.
 class Question_unit
     def initialize()
         @pregunta = rand(15) + 1

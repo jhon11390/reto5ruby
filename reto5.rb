@@ -1,5 +1,5 @@
+#Clase Reto: Esta clase muestra la interfaz al usuario para jugar, muestra  pregunta a pregunta del hash de la clase Array_questions.
 require "./Filesclass/questions.rb"
-
 
 class Reto
     def initialize
@@ -41,17 +41,19 @@ class Reto
         puts
         print "Que deseas hacer: "
         rta = gets.chomp
-        while rta != "s"
+
+        while rta != "s" && rta != "x"
             puts
             puts "Has introducido una opcion incorrecta, por favor presiona (s) para jugar otra vez o (x) para salir"
+            puts
             print "Que deseas hacer: "
-            return rta = gets.chomp
+            rta = gets.chomp
         end
         if rta == "s"
             initialize()
         elsif rta == "x"
             puts
-            puts "Gracias por jugar, Hasta pronto :)"
+            puts "<<<<< Gracias por jugar, Hasta pronto :) >>>>>"
             puts
         end
     end

@@ -1,3 +1,4 @@
+#Clase Array_questions: Esta clase trae 5 preguntas al azar y la guarda en un hash.
 require "./Filesclass/question.rb"
 
 class Array_questions
