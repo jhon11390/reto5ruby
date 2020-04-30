@@ -9,8 +9,7 @@ class Reto
         @questions = Array_questions.new()
         @arrayquestions = @questions.questions
         @numeropregunta = 0
-        self.operationquestion()
-        
+        self.operationquestion()    
     end
 
     def operationquestion
@@ -38,8 +37,24 @@ class Reto
         puts "++++++ Felicidades has completado el reto ++++++"
         puts "*"*50
         puts
+        puts "<<<<< Si deseas jugar nuevamente presiona la letra (s) de lo contrario (x) para salir >>>>>"
+        puts
+        print "Que deseas hacer: "
+        rta = gets.chomp
+        while rta != "s"
+            puts
+            puts "Has introducido una opcion incorrecta, por favor presiona (s) para jugar otra vez o (x) para salir"
+            print "Que deseas hacer: "
+            return rta = gets.chomp
+        end
+        if rta == "s"
+            initialize()
+        elsif rta == "x"
+            puts
+            puts "Gracias por jugar, Hasta pronto :)"
+            puts
+        end
     end
-
 end
 
 
