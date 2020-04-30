@@ -1,0 +1,43 @@
+Lenguaje de programación interpretado, reflexivo y orientado a objetos, creado por el programador japonés yukihiro "matz" matsumoto. (RUBY)
+
+
+Software de control de versiones diseñado por linus torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos. (GIT)
+
+
+Protocolo de comunicación que permite las transferencias de información en la world wide web. (HTTP)
+
+
+Lenguaje con el que se define el contenido de las páginas web. básicamente se trata de un conjunto de etiquetas que sirven para definir el texto y otros elementos que compondrán una página web, como imágenes, listas, vídeos, etc. (HTML)
+
+
+(anteriormente conocido como jade) es un motor de plantilla de node. js. con el que seremos capaces de escribir código html de una sintaxis mucho más sencilla, clara y directa, tanto a la hora de escribir como de leer y modificar. (PUG)
+
+
+Biblioteca javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. es mantenido por facebook y la comunidad de software libre. (REACT)
+
+
+Procesador de hojas de estilos css en tiempo real. (SASS)
+
+
+Plataforma de software para sistemas operativos tipo unix diseñada para administrar múltiples instalaciones de ruby en el mismo dispositivo.(RVM)
+
+
+Sistema de gestión de proyectos y control de versiones de código, así como una plataforma de red social diseñada para desarrolladores. (GITHUB)
+
+
+Lenguaje de programación interpretado, dialecto del estándar ecmascript. se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico. (JAVASCRIPT)
+
+
+Framework para aplicaciones web de software libre y código abierto, y lenguaje específico del dominio escrito en ruby. es una alternativa a otros frameworks para aplicaciones web como ruby on rails, merb, nitro, camping, y rango. (SINATRA)
+
+
+Acrónimo de asynchronous javascript and xml (javascript asíncrono y xml). (AJAX)
+
+
+Lenguaje de hojas de estilos creado para controlar el aspecto o presentación de los documentos electrónicos definidos con html y xhtml. (CSS)
+
+
+Biblioteca multiplataforma de javascript, creada inicialmente por john resig, que permite simplificar la manera de interactuar con los documentos html, manipular el árbol dom, manejar eventos, desarrollar animaciones y agregar interacción con la técnica ajax a páginas web. (JQUERY)
+
+
+Framework css y javascript diseñado para la creación de interfaces limpias y con un diseño responsive. (BOOTSTRAP)
