@@ -11,6 +11,8 @@ class Array_questions
         self.addquestion()
     end
 
+    private
+    
     def addquestion()
         while @questionselement < 5 do
             question = Question_unit.new()

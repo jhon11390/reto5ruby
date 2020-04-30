@@ -12,6 +12,8 @@ class Reto
         self.operationquestion()    
     end
 
+    private
+
     def operationquestion
         while @numeropregunta < 5
             puts "Definición"

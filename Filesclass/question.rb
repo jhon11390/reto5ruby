@@ -8,6 +8,16 @@ class Question_unit
         @answerdesencrypted = self.desencriptado(@answer)
     end
 
+    def definicion()
+        @answerdesencrypted.capitalize
+    end
+
+    def respuesta()
+        @questiondesencrypted.upcase
+    end
+
+    private
+
     def desencriptado(words)
         alphabet = {Q: "a", W: "b", E: "c", R: "d", T: "e", Y: "f", U: "g", I: "h", O: "i", P: "j", A: "k", S: "l", D: "m", F: "n", G: "o", H: "p", J: "q", K: "r", L: "s", Z: "t", X: "u", C: "v", V: "w", B: "x", N: "y", M: "z"}
         defencryted = []
@@ -22,15 +32,6 @@ class Question_unit
         end
         return defencryted.join("")
     end
-
-    def definicion()
-        @answerdesencrypted.capitalize
-    end
-
-    def respuesta()
-        @questiondesencrypted.upcase
-    end
-
 end
 
 
