@@ -1,3 +1,4 @@
+
 #Clase Encrypter: Esta clase encripta los archivos y los crea en la carpeta Preguntas.
 class Encrypter
     attr_reader :question, :answer
@@ -5,13 +6,13 @@ class Encrypter
     def initialize(question, answer)
         @question = question
         @answer = answer
-        @definicionencry = self.encriptado(@question)
-        @respuestaencry = self.encriptado(@answer)
+        @definicionencry = encriptado(@question)
+        @respuestaencry = encriptado(@answer)
         @allfille = Dir.glob("./Preguntas/*")
         @allfile2 = []
-        self.number_of_files
+        number_of_files()
         @numberfiles = @allfile2.count()==0? 1 : @allfile2.count()+1
-        self.createquestion
+        createquestion()
     end
     
     private
