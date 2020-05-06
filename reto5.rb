@@ -9,7 +9,7 @@ class Reto
         @questions = Array_questions.new()
         @arrayquestions = @questions.questions
         @numeropregunta = 0
-        self.operationquestion()    
+        operationquestion()    
     end
 
     private

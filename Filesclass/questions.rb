@@ -8,7 +8,7 @@ class Array_questions
     def initialize
         @questions = Hash.new()
         @questionselement = @questions.length
-        self.addquestion()
+        addquestion()
     end
 
     private

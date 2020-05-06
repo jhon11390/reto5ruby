@@ -4,8 +4,8 @@ class Question_unit
         @pregunta = rand(15) + 1
         @question = File.readlines("./Preguntas/pregunta#{@pregunta}.txt")[1]
         @answer = File.readlines("./Preguntas/pregunta#{@pregunta}.txt")[0]
-        @questiondesencrypted = self.desencriptado(@question)
-        @answerdesencrypted = self.desencriptado(@answer)
+        @questiondesencrypted = desencriptado(@question)
+        @answerdesencrypted = desencriptado(@answer)
     end
 
     def definicion()
